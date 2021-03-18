@@ -10,7 +10,7 @@ disableKinds:
   - term
 
 permalinks:
-  blog: "/:year/:month/:day/:filename"
+  posts: "/:year/:month/:day/:filename"
 
 markup:
   goldmark:

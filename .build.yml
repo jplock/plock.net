@@ -3,7 +3,7 @@ packages:
   - hugo
 oauth: pages.sr.ht/PAGES:RW
 environment:
-  site: gemini.plock.net
+  site: plock.net
 tasks:
 - package: |
     cd $site
