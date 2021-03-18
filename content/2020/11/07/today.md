@@ -1,4 +1,6 @@
-# Today
+---
+title: Today
+---
 
 I'm glad to see the US electoral process finally coming to an end. I don't like talking about politics, but these last 4 years have been so divisive, I hope Biden/Harris are able bring the nation back together.
 

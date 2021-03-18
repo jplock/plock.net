@@ -13,7 +13,8 @@
 
 ## Blog Posts
 
-=> gemini://plock.net/2020/11/07/today.gmi
-=> gemini://plock.net/2020/11/02/first-post.gmi
+{{ range (where .Site.Pages "Section" "articles") }}
+=> {{ replace .Permalink "/gemini" "" 1}} {{ .Title }}
+{{ end }}
 
 The content for this site is CC-BY-SA. The code for this site is MIT.

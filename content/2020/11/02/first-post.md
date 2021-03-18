@@ -1,4 +1,6 @@
-# First Post
+---
+title: First Post
+---
 
 I wanted to set up a Gemini server to bring back the web as it was when I first began using it in the 1990's. I was fortunate enough to attend a high school that had some Sun Microsystems SPARCstations available for student use. That's where I really began using Unix and eventually FreeBSD and Linux.
 
