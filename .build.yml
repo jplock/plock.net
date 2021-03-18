@@ -10,4 +10,4 @@ tasks:
     hugo
     tar -C public -cvz . > ../site.tar.gz
 - upload: |
-    acurl -f https://pages.sr.ht/publish/$site -Fcontent=@site.tar.gz
+    acurl -f https://pages.sr.ht/publish/$site -Fprotocol=GEMINI -Fcontent=@site.tar.gz
