@@ -1,0 +1,18 @@
+mediaTypes:
+  "text/gemini":
+    suffixes:
+      - "gmi"
+
+outputFormats:
+  Gemini:
+    name: GEMINI
+    isPlainText: true
+    isHTML: false
+    mediaType: text/gemini
+    protocol: "gemini://"
+    permalinkable: true
+    path: "gemini/"
+
+outputs:
+  home: ["HTML", "RSS", "GEMINI"]
+  page: ["HTML", "GEMINI"]

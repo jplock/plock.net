@@ -1,0 +1,5 @@
+Hello world!
+
+{{ range (where .Site.Pages "Section" "articles") }}
+=> {{ replace .Permalink "/gemini" "" 1}} {{ .Title }}
+{{ end }}
