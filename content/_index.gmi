@@ -10,5 +10,3 @@
 | |                                       
 |_|                                       
 ```
-
-The content for this site is CC-BY-SA. The code for this site is MIT.

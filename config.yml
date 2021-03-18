@@ -32,13 +32,11 @@ outputFormats:
     mediaType: text/gemini
     protocol: "gemini://"
     permalinkable: true
-    path: "gemini/"
   GEMRSS:
     name: GEMRSS
     isHTML: false
     mediaType: application/rss+xml
     protocol: "gemini://"
-    path: "gemini/"
 
 outputs:
   section:
