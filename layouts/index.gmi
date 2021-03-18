@@ -1,0 +1,14 @@
+{{readFile (replace (replace $.File.Path ".md" ".gmi") ".html" ".gmi") | safeHTML}}
+
+## Blog posts
+{{ range (where .Site.RegularPages "Section" "posts") }}
+{{- if .OutputFormats.Get "gemtext" }}
+=> {{replace .Permalink "/gemini" "" 1}} {{ .Date.Format "2006-01-02" }}: {{.Title | safeHTML}}{{ end }}{{ end }}
+
+=> /feed.xml RSS feed
+
+A backlog of additional articles is available on the World Wide Web:
+
+=> https://plock.net
+
+The content for this site is CC-BY-SA. The code for this site is MIT.

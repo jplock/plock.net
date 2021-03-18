@@ -1,7 +1,3 @@
----
-title: Today
----
-
 I'm glad to see the US electoral process finally coming to an end. I don't like talking about politics, but these last 4 years have been so divisive, I hope Biden/Harris are able bring the nation back together.
 
 # Home Lab
@@ -52,9 +48,3 @@ I run Pritunl Zero in a separate virtual machine and set up NAT'ing on my router
 => https://www.wallabag.it/en
 
 Overall I've been really happy with this set up as I can easily move virtual machines around and update the routing in Pritunl.
-
-"Today" was published on November 7, 2020.
-
-=> / Back to the home page
-
-The content for this site is CC-BY-SA. The code for this site is MIT. 

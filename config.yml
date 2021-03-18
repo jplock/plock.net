@@ -1,3 +1,24 @@
+baseURL: https://plock.net
+languageCode: en-us
+title: plock.net
+pygmentsUseClasses: true
+uglyurls: true
+disablePathToLower: true
+disableHugoGeneratorInject: true
+disableKinds:
+  - taxonomy
+  - term
+
+permalinks:
+  blog: "/:year/:month/:day/:filename"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    ordered: true
+
 mediaTypes:
   text/gemini:
     suffixes:
@@ -5,19 +26,21 @@ mediaTypes:
 
 outputFormats:
   Gemini:
-    name: GEMINI
+    name: GEMTEXT
     isPlainText: true
     isHTML: false
     mediaType: text/gemini
     protocol: "gemini://"
     permalinkable: true
     path: "gemini/"
+  GEMRSS:
+    name: GEMRSS
+    isHTML: false
+    mediaType: application/rss+xml
+    protocol: "gemini://"
+    path: "gemini/"
 
 outputs:
-  home:
-    - HTML
+  section:
     - RSS
-    - GEMINI
-  page:
-    - HTML
-    - GEMINI
+    - GEMRSS
