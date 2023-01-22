@@ -1,0 +1,88 @@
+# Lost in the Woods
+
+* I feel lost lately.
+* I can't concentrate.
+* I don't feel like I can get anything done.
+* I get distracted too easily.
+* I've lost motivation for working.
+* I feel depressed.
+* I feel lonely.
+* I don't feel like I'm going anywhere with my life, just grinding away, every day being the same.
+
+Maybe I'm feeling what people in the tech industry refer to as "burnout".
+
+A friend once asked me what I would do with myself if I won the lottery. I didn't have an answer because I had never thought about it. I think I'd probably keep working because I wouldn't know how else to pass the time.
+
+When I first started my career at GE, I felt like I was on a path. I had recently graduated college, I was accepted into GE's 2-year Information Management Leadership Program (IMLP). I got to meet some amazing people from all over the world.
+
+After my four rotations were completed, I started my full time role in Shelton, Connecticut. I'd go to work, I'd come home, repeat. But, I was given the opportunity to lead some big projects and I got accolades for my achievements (sometimes monetary, but usually something nice for my desk).
+
+At GE, I felt as long as I did well, and keep going through their leadership curriculum (LDC, AIMC, EBC, etc), my career would continue to progress.
+
+Worked there for awhile before feeling like I was being pigeon-holed into doing the same job over and over again and left for my first job in New York City, at Credit Suisse.
+
+I met some nice people there, but grew tired of the early morning communte (since, at that time, I didn't yet have a parking pass for the Fairfield train station, I had to leave extra early to get a parking spot). I was married and living in a condo on the other side of town of the train station.
+
+In 2010, I left Credit Suisse and came back to GE and joined an awesome team supporting GE's largest internal applications. I had a great manager and we had a good time. I was able to develop code and implement some cool projects, such as:
+
+* an internal GE CDN
+* a highly available notification platform for the internal social network (GE Colab)
+* secure authentication gateway
+
+I felt like I was a part of something and working on a team.
+
+Eventually my manager decided to relocate to the west coast to be part of the creation of GE Digital. I had the opportunity to relocate and join his team but wasn't willing to move cross-country at the time.
+
+I left GE in 2013 to join Mandiant to help them develop a cloud-based security incident event management (SIEM) platform as their first engineering manager hire.
+
+Mandiant was acquired by FireEye a month after I joined. Mandiant/FireEye was suppose to be my ticket to financial independence. When I joined, FireEye had recently IPO'ed and the stock was trading for around $90/share. For the next 7 years, the stock was on a free-fall before settling for less than $20/share. I loved my time there. I built up a great team from 3 people to over 30 across four separate teams. I learned a lot about AWS and cloud security and met some really amazing engineers.
+
+We had a lot of issues at FireEye, mostly around executives jockeying for control over some facet of the business. Too much political drama honestly.
+
+It was bittersweet when I left as I was leaving a team of people I liked working with and I wasn't sure of the future there any longer.
+
+A friend from GE had been at The Hartford Insurance Group and was telling me about how much they were struggling with adopting a public cloud provider. I interviewed and joined The Hartford as a Director of Solution Architecture where I was suppose to help design applications for the cloud.
+
+I quickly realized my job was going to impossible unless we revamped how we were approaching providing public cloud services to the rest of the firm. We had to move from a command and control mindset to one of focusing on the developer experience where it was safe for teams to explore what the cloud could offer (very similiar strategies to what Travelers Insurance and Nationwide Insurance implemented).
+
+I probably left The Hartford too soon, as it was right before annual review time and I was anxious to see what kind of bonus I would have received.
+
+But a recruiter from AWS had reached out to me about joining a new organization they were creating focused around startup companies.
+
+This sounded really exciting to me as I'd get to work with startup companies (so hopefully less politics), I'd be in a customer facing role, which is something I hadn't had in my career thus far, and I'd get to promote a platform I enjoyed using (AWS).
+
+Amazon has been a great place to work, and I've met a lot of really nice people here, but I don't feel like I'm a part of a team. Amazon's culture is very much everyone for themselves. Maybe other parts of the organization, such as in Software Engineering roles people work more closely together, but as a Solutions Architect (SA), I have a lot of control over how I spend my time.
+
+I even have to come up with my own goals for 2022, which is a little nerve-racking to be honest.
+
+I don't feel like I have any sense of direction or what I should be doing.
+
+When I start feeling like this, I begin to endlessly start searching for other job opportunities which I don't really want. I'm not interested in changing jobs right now.
+
+Every day feels like the movie Groundhog Day and I don't know how to break the cycle.
+
+I miss:
+
+* experiencing new places I've never been to before
+* meeting new people
+* having conversations with people after work over drinks
+* playing non-electronic games (Cards Against Humanity, Presidents & Assholes, Bullshit)
+* taking pictures (not on my phone)
+
+Traits I can't stand about myself:
+
+* having the need to check my phone
+* reloading Twitter, LinkedIn, and GitHub thinking content is going to change
+
+I feel like I've had a good career, but I also feel like I missed the boat by not starting my career in the bay area after graduating from college. Instead I took a government job down in DC as an Oracle database administrator, which I left after a year because I knew I didn't want to spend the rest of my career babysitting databases.
+
+I could have joined an early Google, Twitter or any other startup company. But I try not to dwell on that one too much, as that ship has sailed.
+
+Someone reading this is probably thinking "what's this guy's problem? he's got a good job, wife, children and a nice house in a good area" and I'd say they are right, but its either not enough or something is still off.
+
+Maybe I should talk to a therapist.
+
+This is impacting my marriage because my wife continously blames herself for being a burden on my life, which isn't true, but I'm terrible at talking about how I'm feeling.
+
+Before COVID-19, we'd take a few trips as a family each year. Last year, we really only went to Cape Cod in August when we felt it was safe to travel.
+
