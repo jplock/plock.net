@@ -1,0 +1,30 @@
+{{- $pages := where .Site.RegularPages "Section" "posts" -}}
+{{- $limit := .Site.Config.Services.RSS.Limit -}}
+{{- if ge $limit 1 -}}
+{{- $pages = $pages | first $limit -}}
+{{- end -}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>plock.net</title>
+    <link>gemini://plock.net</link>
+    <description>plock.net</description>
+    <generator>Hugo -- gohugo.io</generator>{{ with .Site.Language.Locale }}
+    <language>{{.}}</language>{{end}}{{ with .Site.Copyright }}
+    <copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+    {{ with .OutputFormats.Get "GEMRSS" }}
+      {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    {{ end }}
+    {{ range $pages }}
+    <item>
+      <title>{{ .Title }}</title>
+      {{ with .OutputFormats.Get "GEMTEXT" }}
+      <link>{{ .Permalink }}</link>
+      <guid>{{ .Permalink }}</guid>
+      {{ end }}
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+    </item>
+    {{ end }}
+  </channel>
+</rss>

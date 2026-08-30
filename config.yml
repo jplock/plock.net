@@ -1,11 +1,13 @@
 baseURL: https://plock.net
-languageCode: en-us
+locale: en-us
 title: plock.net
 pygmentsUseClasses: true
 uglyurls: true
 disablePathToLower: true
 disableHugoGeneratorInject: true
 disableKinds:
+  - section
+  - sitemap
   - taxonomy
   - term
 
@@ -25,20 +27,21 @@ mediaTypes:
       - gmi
 
 outputFormats:
-  Gemini:
-    name: GEMTEXT
+  gemtext:
     isPlainText: true
     isHTML: false
     mediaType: text/gemini
     protocol: "gemini://"
     permalinkable: true
   GEMRSS:
-    name: GEMRSS
+    baseName: posts
     isHTML: false
     mediaType: application/rss+xml
     protocol: "gemini://"
 
 outputs:
-  section:
-    - RSS
+  home:
+    - gemtext
     - GEMRSS
+  page:
+    - gemtext
